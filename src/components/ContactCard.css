@@ -1,0 +1,39 @@
+.contact-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 250px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.avatar {
+  background: #fff;
+  color: #2575fc;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.contact-info h3 {
+  margin: 0;
+}
+
+.contact-info p {
+  margin: 2px 0;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
